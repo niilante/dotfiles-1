@@ -122,3 +122,6 @@ alias gbrm="git branch -D"
 alias gmv="git branch -m"
 alias gra="git remote add"
 alias grrm="git remote rm"
+
+# System commands
+alias ulogout="sudo pkill -u ${USER}"
