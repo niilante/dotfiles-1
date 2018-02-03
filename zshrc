@@ -93,8 +93,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 PATH=/home/rm-rfasterisk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
-alias git=hub
-alias zshrc="source ~/.zshrc"
 
 # github related
 alias gcl="git clone"
@@ -123,5 +121,12 @@ alias gmv="git branch -m"
 alias gra="git remote add"
 alias grrm="git remote rm"
 
+alias git=hub # Hub integration for git
+
 # System commands
-alias ulogout="sudo pkill -u ${USER}"
+alias ulogout="sudo pkill -u ${USER}" # Logout
+alias home="cd ~/" # cd to $HOME
+alias .files="cd ~/github/dotfiles" # cd into the dir where dotfiles are located
+alias cdgit="cd ~/github" # cd into the dir where git files are located
+alias zshrc="source ~/.zshrc" # reload shell
+alias erc="vim ~/.zshrc" # edit zshrc
