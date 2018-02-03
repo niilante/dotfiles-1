@@ -67,3 +67,4 @@ alias .files="cd ~/github/dotfiles" # cd into the dir where dotfiles are located
 alias cdgit="cd ~/github" # cd into the dir where git files are located
 alias zshrc="source ~/.zshrc" # reload shell
 alias erc="vim ~/.zshrc" # edit zshrc
+alias apt="sudo apt" # Make sudo apt as default
