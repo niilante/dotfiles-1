@@ -92,3 +92,33 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+PATH=/home/rm-rfasterisk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+alias git=hub
+alias zshrc="source ~/.zshrc"
+
+# github related
+alias gcl="git clone"
+alias gph="git push"
+alias gpl="git pull"
+alias gc="git commit"
+alias gcm="git commit -m"
+alias gcma="git commit -am"
+alias gad="git add"
+alias gadd="git add -A"
+alias grm="git rm"
+alias gfc="git fetch"
+alias gcp="git cherry-pick"
+alias gcpc="git cherry-pick --continue"
+alias gmr="git merge"
+alias gst="git status"
+alias glg="git log"
+alias grt="git reset"
+alias grth="git reset --hard"
+alias grth="git reset --soft"
+alias gbr="git branch"
+alias gcbt="git checkout -b"
+alias gct="git checkout"
+alias gbrm="git branch -D"
+alias gmv="git branch -m"
+alias gra="git remote add"
+alias grrm="git remote rm"
