@@ -1,3 +1,5 @@
+colorscheme northpole 
+
 syntax enable
 set tabstop=3
 set softtabstop=3
