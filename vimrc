@@ -1,7 +1,7 @@
 colorscheme northpole 
 
 syntax enable
-set tabstop=3
+set tabstop=4
 set softtabstop=3
 set expandtab
 set number
