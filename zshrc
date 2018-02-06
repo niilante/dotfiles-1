@@ -67,6 +67,10 @@ alias grrm="git remote rm"
 
 alias git=hub # Hub integration for git
 
+export hgit="https://github.com"
+export sgit="git@github.com"
+export gusr="rm-rfasterisk"
+
 # System commands
 alias ulogout="sudo pkill -u ${USER}" # Logout
 alias home="cd ~/" # cd to $HOME
