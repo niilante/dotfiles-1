@@ -1,4 +1,4 @@
-colorscheme northpole 
+"colorscheme northpole"
 
 syntax enable
 set tabstop=4
