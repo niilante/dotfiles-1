@@ -86,3 +86,4 @@ alias aptd="apt -f install"
 alias aptp="apt purge"
 alias aptu="apt update && apt upgrade"
 alias fnd="find ${PWD} -name"
+alias pacuar=pacaur
