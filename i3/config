@@ -193,3 +193,6 @@ bindsym XF86AudioPrev exec playerctl previous
 
 # Compton
 exec_always --no-startup-id compton -f &
+
+# Network Manager Applet
+exec_always --no-startup-id nm-applet &

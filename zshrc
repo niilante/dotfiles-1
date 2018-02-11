@@ -73,6 +73,7 @@ export gusr="rm-rfasterisk"
 
 # System commands
 alias ulogout="sudo pkill -u ${USER}" # Logout
+alias dlds="cd ~/Downloads"
 alias home="cd ~/" # cd to $HOME
 alias .files="cd ~/github/dotfiles" # cd into the dir where dotfiles are located
 alias cdgit="cd ~/github" # cd into the dir where git files are located
