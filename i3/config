@@ -26,6 +26,9 @@ font pango:System San Francisco Display 9
 
 # Borders and shit
 new_window pixel 1
+gaps inner 9
+gaps outer 8
+smart_gaps on
 
 # Wallpaper
 exec_always --no-startup-id feh --bg-fill ~/Wallpapers/Wolf.png
@@ -87,7 +90,7 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-bindsym $mod+h split h;exec notify-send --expire-time=500 'Horinzontal Orientation'
+bindsym $mod+h split h;exec i3-notify-send --expire-time=500 'Horinzontal Orientation'
 
 # split in vertical orientation
 bindsym $mod+v split v;exec notify-send --expire-time=500 'Vertical Orientation'
