@@ -10,3 +10,4 @@ set wildmenu
 set showmatch
 set incsearch
 set nohlsearch
+set foldmethod=manual

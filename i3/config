@@ -26,12 +26,12 @@ font pango:System San Francisco Display 9
 
 # Borders and shit
 new_window pixel 1
-gaps inner 9
-gaps outer 8
+gaps inner 2
+gaps outer 1
 smart_gaps on
 
 # Wallpaper
-exec_always --no-startup-id feh --bg-fill ~/Wallpapers/Wolf.png
+exec_always --no-startup-id feh --bg-fill ~/.wallpaper.{png,jpeg,jpg,JPG,JPEG,PNG}
 
 # Polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
@@ -62,8 +62,8 @@ bindsym $mod+d exec --no-startup-id dmenu_run
 # bindsym $mod+d exec --no-startup-id --no-startup-id i3-dmenu-desktop
 
 # Chrome
-bindsym $mod+c exec --no-startup-id google-chrome-beta
-bindsym $mod+i exec --no-startup-id google-chrome-beta --incognito
+bindsym $mod+c exec --no-startup-id google-chrome
+bindsym $mod+i exec --no-startup-id google-chrome --incognito
  
 # change focus
 bindsym $mod+$left focus left

@@ -4,7 +4,7 @@
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="mrtazz"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -74,11 +74,15 @@ export gusr="rm-rfasterisk"
 # System commands
 alias ulogout="sudo pkill -u ${USER}" # Logout
 alias dlds="cd ~/Downloads"
-alias home="cd ~/" # cd to $HOME
+alias home="cd ~/" 
 alias .files="cd ~/github/dotfiles" # cd into the dir where dotfiles are located
 alias cdgit="cd ~/github" # cd into the dir where git files are located
-alias zshrc="source ~/.zshrc" # reload shell
+alias zshrc="source ~/.zshrc" # reload zsh shell
 alias erc="vim ~/.zshrc" # edit zshrc
+alias i3rc="vim ~/.i3/config" # Edit i3 config
+alias polyrc="vim ~/.config/polybar/config" # edit polybar config
+
+# Ubuntu
 alias apt="sudo apt" # Make sudo apt as default
 alias apti="apt install"
 alias apts="apt search"
@@ -86,7 +90,23 @@ alias aptr="apt remove"
 alias aptd="apt -f install"
 alias aptp="apt purge"
 alias aptu="apt update && apt upgrade"
+
+# Arch
+alias pacuar=pacaur # Okay, I guess I need help now :3
+
+# Fedora
+alias dnf="sudo dnf" # Make sudo dnf as default
+alias dnfi="dnf install"
+alias dnfr="dnf remove"
+alias dnfu="dnf update"
+alias dnfug="dnf upgrade"
+alias copr="dnf copr"
+
 alias fnd="find ${PWD} -name"
-alias pacuar=pacaur
+
+##############
+# Git config #
+##############
+#
 git config --global user.email "spreddy617@gmail.com"
 git config --global user.name "rm-rfasterisk"
